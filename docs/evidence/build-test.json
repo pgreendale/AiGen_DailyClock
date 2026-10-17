@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-17",
+  "firmware_build": "passed",
+  "board": "RP2040-LCD-1.28",
+  "sdk": "2.2.0",
+  "compiler": "Arm GNU 14.2.Rel1",
+  "native_c_tests": "passed",
+  "python_tests_passed": 6,
+  "uf2_bytes": 347648,
+  "uf2_sha256": "fd10856a5f04517d221364267183bc5b6ff9bbd106b2adf732a64a7ae8d29a22",
+  "same_as_previously_device_tested": true,
+  "new_device_flash_performed": false
+}

@@ -1,0 +1,155 @@
+{
+  "events": [
+    {
+      "command": "S",
+      "reply": "STATUS T:16:26:47 T:2026:10:17 B:6 TIME_SET:1 DATE_SET:1"
+    },
+    {
+      "command": "B:01",
+      "reply": "OK B 1 PWM 100/10000"
+    },
+    {
+      "command": "B:02",
+      "reply": "OK B 2 PWM 167/10000"
+    },
+    {
+      "command": "B:03",
+      "reply": "OK B 3 PWM 278/10000"
+    },
+    {
+      "command": "B:04",
+      "reply": "OK B 4 PWM 464/10000"
+    },
+    {
+      "command": "B:05",
+      "reply": "OK B 5 PWM 774/10000"
+    },
+    {
+      "command": "B:06",
+      "reply": "OK B 6 PWM 1292/10000"
+    },
+    {
+      "command": "B:07",
+      "reply": "OK B 7 PWM 2154/10000"
+    },
+    {
+      "command": "B:08",
+      "reply": "OK B 8 PWM 3594/10000"
+    },
+    {
+      "command": "B:09",
+      "reply": "OK B 9 PWM 5995/10000"
+    },
+    {
+      "command": "B:10",
+      "reply": "OK B 10 PWM 10000/10000"
+    },
+    {
+      "command": "X",
+      "reply": "ERR Invalid command or value"
+    },
+    {
+      "command": "B:00",
+      "reply": "ERR Invalid command or value"
+    },
+    {
+      "command": "B:11",
+      "reply": "ERR Invalid command or value"
+    },
+    {
+      "command": "T:24:00:00",
+      "reply": "ERR Invalid command or value"
+    },
+    {
+      "command": "T:12:60:00",
+      "reply": "ERR Invalid command or value"
+    },
+    {
+      "command": "T:2023:02:29",
+      "reply": "ERR Invalid command or value"
+    },
+    {
+      "command": "T:2100:02:29",
+      "reply": "ERR Invalid command or value"
+    },
+    {
+      "command": "T:2026:04:31",
+      "reply": "ERR Invalid command or value"
+    },
+    {
+      "command": "T:0000:01:01",
+      "reply": "ERR Invalid command or value"
+    },
+    {
+      "command": "S",
+      "reply": "STATUS T:16:26:55 T:2026:10:17 B:10 TIME_SET:1 DATE_SET:1"
+    },
+    {
+      "command": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXB:1",
+      "reply": "ERR Line too long or non-ASCII input"
+    },
+    {
+      "command": "S",
+      "reply": "STATUS T:16:26:56 T:2026:10:17 B:10 TIME_SET:1 DATE_SET:1"
+    },
+    {
+      "command": "T:2024:02:28",
+      "reply": "OK DATE 2024:02:28"
+    },
+    {
+      "command": "T:23:59:59",
+      "reply": "OK TIME 23:59:59"
+    },
+    {
+      "command": "S",
+      "reply": "STATUS T:00:00:00 T:2024:02:29 B:10 TIME_SET:1 DATE_SET:1"
+    },
+    {
+      "command": "T:2100:02:28",
+      "reply": "OK DATE 2100:02:28"
+    },
+    {
+      "command": "T:23:59:59",
+      "reply": "OK TIME 23:59:59"
+    },
+    {
+      "command": "S",
+      "reply": "STATUS T:00:00:00 T:2100:03:01 B:10 TIME_SET:1 DATE_SET:1"
+    },
+    {
+      "command": "T:2000:02:28",
+      "reply": "OK DATE 2000:02:28"
+    },
+    {
+      "command": "T:23:59:59",
+      "reply": "OK TIME 23:59:59"
+    },
+    {
+      "command": "S",
+      "reply": "STATUS T:00:00:00 T:2000:02:29 B:10 TIME_SET:1 DATE_SET:1"
+    },
+    {
+      "command": "T:2026:12:31",
+      "reply": "OK DATE 2026:12:31"
+    },
+    {
+      "command": "T:23:59:59",
+      "reply": "OK TIME 23:59:59"
+    },
+    {
+      "command": "S",
+      "reply": "STATUS T:00:00:00 T:2027:01:01 B:10 TIME_SET:1 DATE_SET:1"
+    },
+    {
+      "command": "S",
+      "reply": "STATUS T:00:00:00 T:2027:01:01 B:10 TIME_SET:1 DATE_SET:1"
+    },
+    {
+      "command": "S",
+      "reply": "STATUS T:00:00:01 T:2027:01:01 B:10 TIME_SET:1 DATE_SET:1"
+    }
+  ],
+  "passed": true,
+  "tested_on": "2026-10-17",
+  "privacy_note": "Local port and precise host timestamp removed; command/response test evidence retained."
+}

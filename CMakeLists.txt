@@ -1,0 +1,26 @@
+cmake_minimum_required(VERSION 3.13)
+set(CMAKE_C_STANDARD 11)
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+set(PICO_BOARD pico CACHE STRING "RP2040 LCD 1.28; pico2 for RP2350 variant")
+include(cmake/pico_sdk_import.cmake)
+project(nonlinear_clock C CXX ASM)
+set(CLOCK_LCD_ROTATION 180 CACHE STRING "LCD mounting rotation: 0 or 180 degrees")
+if(NOT CLOCK_LCD_ROTATION STREQUAL "0" AND NOT CLOCK_LCD_ROTATION STREQUAL "180")
+    message(FATAL_ERROR "CLOCK_LCD_ROTATION must be 0 or 180")
+endif()
+pico_sdk_init()
+add_executable(nonlinear_clock
+    firmware/src/main.c firmware/src/calendar.c firmware/src/clock_state.c
+    firmware/src/protocol.c firmware/src/clock_model.c firmware/src/clock_render.c
+    firmware/src/lcd.c firmware/generated/clock_assets.c)
+target_include_directories(nonlinear_clock PRIVATE firmware/include firmware/generated)
+target_compile_options(nonlinear_clock PRIVATE -Wall -Wextra)
+target_compile_definitions(nonlinear_clock PRIVATE
+    CLOCK_LCD_ROTATION=${CLOCK_LCD_ROTATION} USBD_PRODUCT=\"NonlinearClock\" PICO_STDIO_USB_CONNECT_WAIT_TIMEOUT_MS=0 PICO_STDIO_USB_STDOUT_TIMEOUT_US=1000)
+target_link_libraries(nonlinear_clock pico_stdlib hardware_spi hardware_pwm m)
+pico_enable_stdio_usb(nonlinear_clock 1)
+pico_enable_stdio_uart(nonlinear_clock 0)
+pico_set_program_name(nonlinear_clock "Nonlinear Clock")
+pico_set_program_version(nonlinear_clock "1.0.0")
+pico_add_extra_outputs(nonlinear_clock)

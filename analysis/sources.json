@@ -1,0 +1,26 @@
+[
+  {
+    "filename": "NBT24MON_outputs.xlsx",
+    "url": "https://crowding.data.tfl.gov.uk/NUMBAT/NUMBAT%202024/NBT24MON_outputs.xlsx",
+    "sha256": "e205aaff97b1d415404613b2d9ef0fb4f55dee8cab0faa44918d5377511a8f37",
+    "bytes": 12088689
+  },
+  {
+    "filename": "NBT24TWT_outputs.xlsx",
+    "url": "https://crowding.data.tfl.gov.uk/NUMBAT/NUMBAT%202024/NBT24TWT_outputs.xlsx",
+    "sha256": "57aea26218e988576436cc1776c3638f7ba258e176e2cbcbbdfb20121a118c7e",
+    "bytes": 12135500
+  },
+  {
+    "filename": "NBT24FRI_outputs.xlsx",
+    "url": "https://crowding.data.tfl.gov.uk/NUMBAT/NUMBAT%202024/NBT24FRI_outputs.xlsx",
+    "sha256": "fca067bb5b4cff7ec1d5b0a703305b895bf9bbeb53bfcff891a0dafc54c13749",
+    "bytes": 12429671
+  },
+  {
+    "filename": "nts0502.ods",
+    "url": "https://assets.publishing.service.gov.uk/media/6a9ecdd5474b8101ece46434/nts0502.ods",
+    "sha256": "c76a9baa2e90319cd6e559e5d019ee297c040b518f8b7ca7a31a745ca97944fb",
+    "bytes": 164760
+  }
+]

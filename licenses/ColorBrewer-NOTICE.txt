@@ -1,0 +1,7 @@
+ColorBrewer Color Schemes
+Copyright (c) 2002 Cynthia Brewer, Mark Harrower, and The Pennsylvania State University.
+Licensed under Apache License 2.0.
+Source and license: https://matplotlib.org/stable/project/license.html#colormaps-and-themes
+Full bundled license collection including Apache-2.0: Matplotlib-LICENSE.txt.
+
+Changes made for Nonlinear Clock: YlGnBu reversed (YlGnBu_r), truncated to the first 75% of that reversed scale, resampled to 256 RGB565 values and applied to the dial and hour hand. The original ColorBrewer palette name is identified for provenance, not as endorsement.

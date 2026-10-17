@@ -1,0 +1,9 @@
+{
+  "coefficient_max_error": 0.0,
+  "mass_0_12": 0.43429507228196335,
+  "integral_f": 1.0,
+  "G_0": 0.0,
+  "G_12": 0.5,
+  "G_24": 1.0,
+  "normalization_before_division": 1.0000000000000036
+}

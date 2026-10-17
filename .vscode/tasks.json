@@ -1,0 +1,51 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Clock: configure",
+      "type": "process",
+      "command": "python",
+      "args": [
+        "${workspaceFolder}/tools/configure.py"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": [
+        "$gcc"
+      ]
+    },
+    {
+      "label": "Clock: build",
+      "type": "process",
+      "command": "python",
+      "args": [
+        "${workspaceFolder}/tools/build.py"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": [
+        "$gcc"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
+    {
+      "label": "Clock: test",
+      "type": "process",
+      "command": "python",
+      "args": [
+        "${workspaceFolder}/tools/test.py"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": [
+        "$gcc"
+      ]
+    }
+  ]
+}

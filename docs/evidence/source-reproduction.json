@@ -1,0 +1,14 @@
+{
+  "raw_inputs_sha256_verified": true,
+  "extraction_and_aggregation_rerun": "passed",
+  "max_profile_numeric_difference": 0,
+  "station_sheet_total_residuals": {
+    "TWT_8": 4.6566128730773926e-09,
+    "TWT_7": 2.7939677238464355e-09,
+    "FRI_7": 1.862645149230957e-09,
+    "FRI_8": 0.0,
+    "MON_8": -1.862645149230957e-09,
+    "MON_7": 4.6566128730773926e-09
+  },
+  "events": 9861998.868664356
+}

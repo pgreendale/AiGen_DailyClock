@@ -1,0 +1,10 @@
+/build/
+/build-host/
+/dist/
+/cmake/local-tools.json
+/.venv/
+__pycache__/
+*.pyc
+/analysis/data/*.xlsx
+/analysis/data/*.ods
+/.matplotlib/
