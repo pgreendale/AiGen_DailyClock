@@ -1,5 +1,5 @@
 # Uneven Clock
-
+![Built Clock](docs/images/Clock_Built.png)
 Eine 24-Stunden-Uhr mit ungleichmäßiger Stundenskala: In Tagesphasen mit vielen gewichteten Verkehrsereignissen legt der Stundenzeiger mehr Winkel zurück. Hardware: **Waveshare RP2040-LCD-1.28**, 240 × 240 Pixel.
 
 ![08:15:30 – Softwarevorschau](docs/images/previews/preview_081530.png)
