@@ -1,4 +1,4 @@
-# Nonlinear Clock
+# Uneven Clock
 
 Eine 24-Stunden-Uhr mit ungleichmäßiger Stundenskala: In Tagesphasen mit vielen gewichteten Verkehrsereignissen legt der Stundenzeiger mehr Winkel zurück. Hardware: **Waveshare RP2040-LCD-1.28**, 240 × 240 Pixel.
 
